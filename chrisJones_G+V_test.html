@@ -17,7 +17,7 @@
 
 <div class="w3-top">
   <div class="w3-bar w3-card" id="myNavbar">
-    <a href="#" class="w3-bar-item w3-button w3-wide"><img src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/Gv-logo.svg" alt="Goram and Vincent logo"></a>
+    <a href="#" class="w3-bar-item w3-button w3-wide"><img src="Images/Gv-logo.svg" alt="Goram and Vincent logo"></a>
 
     <a href="javascript:void(0)" class="w3-button w3-hide-large w3-hide-medium dropdown-toggle">
       <i class="fa fa-bars"></i>
@@ -38,16 +38,16 @@
 
   <div class="main-title" id="link1">
     <h1>big title here</h1>
-    <img id="main-title-dots"src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/circle-dots.svg"/>
-    <img id="main-title-circle" src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/circle-shadow.svg"/>
+    <img id="main-title-dots"src="Images/circle-dots.svg"/>
+    <img id="main-title-circle" src="Images/circle-shadow.svg"/>
   </div>
 
   <!-- slider-->
 
   <div class="slider-container" id="link2">
   <h2>Smaller title</h2>
-  <a href="#" class="control_next"><img src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/arrow_2.svg"/></a>
-  <a href="#" class="control_prev"><img src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/arrow_2.svg"/></a>
+  <a href="#" class="control_next"><img src="Images/arrow_2.svg"/></a>
+  <a href="#" class="control_prev"><img src="Images/arrow_2.svg"/></a>
   <div id="slider">
     <ul>
       <li><img src="https://images.unsplash.com/photo-1648197583383-3604113f66c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" /></li>
@@ -60,21 +60,21 @@
 
   <div class="secondary-content" id="link3">
     <div class="card">
-      <img class="card-icon" src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/sun-solid.svg" />
+      <img class="card-icon" src="Images/sun-solid.svg" />
       <h3>Smaller title</h3>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     <div class="card">
-      <img class="card-icon" src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/wrench-solid.svg" />
+      <img class="card-icon" src="Images/wrench-solid.svg" />
       <h3>Smaller title</h3>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     <div class="card">
-      <img class="card-icon" src="file:///Users/chris/Stuff/Goram&Vincent/Trys/Images/bag-shopping-solid.svg" />
+      <img class="card-icon" src="Images/bag-shopping-solid.svg" />
       <h3>Smaller title</h3>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>&#8226 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -85,25 +85,26 @@
 <!--  contact form area-->
 
   <div class="get-in-touch outer">
-    <div class="get-in-touch inner">
-      <h2>Get in touch</h2>
-        <a href="javascript:void(0)" class="contact">Contact form</a>
-    </div>
+  <div class="get-in-touch inner">
+    <h2>Get in touch</h2>
+      <a href="javascript:void(0)" class="contact" onclick="contact_open()">Contact form</a>
   </div>
+</div>
+
 
 <!--  the contact form itself-->
 
 
   <div id="contact-form" style="background-color: white; height: 200px; width: 100%;">
-  <h2>Fill me in</h2>
-  <a href="javascript:void(0)">X</a><br>
-  name*<br>
-  email*<br>
-  phone number*<br>
-  company*<br>
-  message*<br>
-  submit btn<br>
-</div>
+    <h2>Fill me in</h2>
+    <a href="javascript:void(0)" onclick="contact_close()">X</a><br>
+    name*<br>
+    email*<br>
+    phone number*<br>
+    company*<br>
+    message*<br>
+    submit btn<br>
+  </div>
 
   </body>
 </html>

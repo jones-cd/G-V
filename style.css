@@ -3,18 +3,18 @@
 
 @font-face {
     font-family: "Prohibition Regular";
-    src: url("file:///Users/chris/Stuff/Goram&Vincent/Trys/Fonts/Prohibition/Prohibition-Regular.woff2");
-  }
+    src: url("file:Fonts/Prohibition/Prohibition-Regular.woff2");
+}
 
   @font-face {
     font-family: "Rustico-V2-Regular";
-    src: url("file:///Users/chris/Stuff/Goram&Vincent/Trys/Fonts/Rustico-V2-Regular.otf");
-  }
+    src: url("file:Fonts/Rustico-V2-Regular.otf");
+}
 
   @font-face {
     font-family: "Source sans";
-    src: url("file:///Users/chris/Stuff/Goram&Vincent/Trys/Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
-  }
+    src: url("file:Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
 
 body, html {
   margin: 0;
@@ -240,4 +240,11 @@ a.contact {
   border: 0;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+#contact-form {
+  animation: animateleft 0.5s;
+  position: relative;
+  bottom: 200px;
+  display: none;
 }

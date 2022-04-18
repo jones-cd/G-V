@@ -7,6 +7,10 @@ body, html {
   margin: 0;
 }
 
+@font-face {
+    font-family: "Prohibition Regular";
+    src: url("file:///Users/chris/Stuff/Goram&Vincent/Trys/Fonts/Prohibition/Prohibition-Regular.woff2");
+  }
 
 /*-----------navbar---------------------*/
 
@@ -60,4 +64,25 @@ ul.dropdown li a {
   text-decoration: none; 
   padding: 0em 1em; 
   display: block; 
+}
+
+/*----------main title area-------------------*/
+
+.main-title {
+  background-color: #00FFE1;
+  height: 422px;
+}
+
+#main-title-circle {
+    width: 470px;
+    position: absolute;
+    left: -21px;
+    top: 74px;
+}
+
+#main-title-dots {
+    width: 406px;
+    position: absolute;
+    left: -16px;
+    top: 67px;
 }

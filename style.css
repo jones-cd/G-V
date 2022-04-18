@@ -217,3 +217,27 @@ a.control_prev:hover, a.control_next:hover {
     left: calc(50% - 40px);
     padding-bottom: 12px;
 }
+
+/*------------contact form-------------------------*/
+
+.get-in-touch {
+  background-color:  #18064E;
+  padding: 10px 0;
+}
+
+.inner {
+  width: 80%;
+    margin: 0 auto;
+}
+
+a.contact {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 47px;
+  color: #18064E;
+  background-color: #00FFE1;
+  border: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}

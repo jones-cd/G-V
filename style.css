@@ -1,12 +1,46 @@
 
 /*-----------general---------------------*/
 
+@font-face {
+    font-family: "Prohibition Regular";
+    src: url("file:///Users/chris/Stuff/Goram&Vincent/Trys/Fonts/Prohibition/Prohibition-Regular.woff2");
+  }
+
+  @font-face {
+    font-family: "Rustico-V2-Regular";
+    src: url("file:///Users/chris/Stuff/Goram&Vincent/Trys/Fonts/Rustico-V2-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "Source sans";
+    src: url("file:///Users/chris/Stuff/Goram&Vincent/Trys/Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  }
+
 body, html {
-  height: 100%;
-  color: #18064E;
   margin: 0;
+  padding: 0;
+  font-family: 'Source sans' sans-serif;
+  background-color: #00FFE1;
 }
 
+h1 {
+    font-family: "Prohibition Regular", sans-serif;
+    color: #18064E;
+    text-align: left;
+    font-weight: 300;
+    font-size: 76px;
+    position: absolute;
+    top: 181px;
+    left: 40%;
+    z-index: 200;
+    line-height: 74px;
+}
+
+h2 {
+  text-align: center;
+  color: #00FFE1;
+  font-family: "Rustico-V2-Regular";
+}
 
 /*-----------navbar---------------------*/
 
@@ -63,6 +97,7 @@ ul.dropdown li a {
 }
 
 /*----------main title area-------------------*/
+
 
 .main-title {
   background-color: #00FFE1;

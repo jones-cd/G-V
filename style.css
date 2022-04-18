@@ -176,3 +176,18 @@ a.control_prev:hover, a.control_next:hover {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
 }
+
+/*-------------icon card area--------------*/
+
+.secondary-content {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #18064E;
+}
